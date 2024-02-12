@@ -1,14 +1,13 @@
 <style>
-  /* 테이블과 셀에 대한 스타일 정의 */
   table {
-    border-collapse: collapse; /* 테두리 겹침을 없애는 속성 */
-    width: 100%; /* 옵션: 테이블 너비를 설정할 수 있음 */
+    border-collapse: collapse; /* 이 속성은 테이블 셀 사이의 간격을 제거합니다. */
+    width: 100%; /* 이 속성은 테이블의 너비를 지정합니다. */
   }
-  
-  /* 모든 th와 td 태그에 적용될 스타일 */
+  table, th, td {
+    border: 1px solid black; /* 이 속성은 테이블과 셀에 검은색 외곽선을 추가합니다. */
+  }
   th, td {
-    border: 1px solid black; /* 테두리 스타일 설정 */
-    text-align: center; /* 텍스트 중앙 정렬 */
-    padding: 8px; /* 셀 내부 여백(padding) 설정 */
+    text-align: center; /* 이 속성은 테이블 내의 텍스트를 가운데 정렬합니다. */
+    padding: 8px; /* 이 속성은 셀의 내부 여백을 추가합니다. */
   }
 </style>
